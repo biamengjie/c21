@@ -28,26 +28,27 @@ int main()
         {
             int qu;
             printf("qingshuruyaoquchudejine:\n");
-            scanf("%d",&qu);
-            qian-=qu;
+            scanf("%d", &qu);
+            qian -= qu;
             printf("quchuchenggong,dianjihuichejixu:\n");
             char x;
-            scanf("%c",&x);
-            scanf("%c",&x);
-
+            scanf("%c", &x);
+            scanf("%c", &x);
         }
         if (code == 3)
-        {  
-            
-        printf("dangqianyuewei%d\n,qian");
-        printf("dianjihuicheiixu:\n");
-        char x;
-        scanf("%c",&x);
-        scanf("%c",&x);
+        {
 
+            printf("dangqianyuewei%d\n",qian);
+            printf("dianjihuichejixu:\n");
+            char x;
+            scanf("%c", &x);
+            scanf("%c", &x);
         }
         if (code == 4)
         {
+            printf("chengxujieshu:\n");
+            break;
+
         }
     }
     return 0;
