@@ -29,16 +29,26 @@ int main()
             int qu;
             printf("qingshuruyaoquchudejine:\n");
             scanf("%d", &qu);
-            qian -= qu;
-            printf("quchuchenggong,dianjihuichejixu:\n");
-            char x;
-            scanf("%c", &x);
-            scanf("%c", &x);
+            if (qian < qu)
+            {
+                printf("yuebuzu,quqianshibai,dianjihuichetuichu\n");
+                char x;
+                scanf("%c", &x);
+                scanf("%c", &x);
+            }
+            else
+            {
+                qian -= qu;
+                printf("quchuchenggong,dianjihuichejixu:\n");
+                char x;
+                scanf("%c", &x);
+                scanf("%c", &x);
+            }
         }
         if (code == 3)
         {
 
-            printf("dangqianyuewei%d\n",qian);
+            printf("dangqianyuewei%d\n", qian);
             printf("dianjihuichejixu:\n");
             char x;
             scanf("%c", &x);
@@ -48,7 +58,6 @@ int main()
         {
             printf("chengxujieshu:\n");
             break;
-
         }
     }
     return 0;
