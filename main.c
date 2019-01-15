@@ -37,7 +37,14 @@ int main()
 
         }
         if (code == 3)
-        {
+        {  
+            
+        printf("dangqianyuewei%d\n,qian");
+        printf("dianjihuicheiixu:\n");
+        char x;
+        scanf("%c",&x);
+        scanf("%c",&x);
+
         }
         if (code == 4)
         {
